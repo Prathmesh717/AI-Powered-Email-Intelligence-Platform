@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: Smartai
+  labels:
+    app.kubernetes.io/name: Smartai
+    app.kubernetes.io/part-of: Smartai

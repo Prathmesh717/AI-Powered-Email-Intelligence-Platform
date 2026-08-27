@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Smartai-mcp
+  namespace: Smartai
+  labels:
+    app.kubernetes.io/name: Smartai
+    app.kubernetes.io/component: mcp
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: Smartai
+    app.kubernetes.io/component: mcp
+  ports:
+    - name: http
+      port: 8001
+      targetPort: http

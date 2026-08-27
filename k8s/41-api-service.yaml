@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Smartai-api
+  namespace: Smartai
+  labels:
+    app.kubernetes.io/name: Smartai
+    app.kubernetes.io/component: api
+spec:
+  type: ClusterIP
+  selector:
+    app.kubernetes.io/name: Smartai
+    app.kubernetes.io/component: api
+  ports:
+    - name: http
+      port: 8000
+      targetPort: http
