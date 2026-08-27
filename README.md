@@ -50,7 +50,10 @@ The platform analyzes email content, identifies important messages, determines p
                            │
                            ▼
                   AI-Powered Insights
-🔄 AI Email Processing Pipeline
+
+
+
+AI Email Processing Pipeline
 Incoming Email
       │
       ▼
