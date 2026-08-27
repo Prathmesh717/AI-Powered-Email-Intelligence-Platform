@@ -248,7 +248,8 @@ AI-Powered-Email-Intelligence-Platform/
 ├── .env.example                 # Environment variable template
 ├── .gitignore                   # Git ignore rules
 
-🔄 End-to-End Workflow
+
+End-to-End Workflow
 User
  │
  ▼
@@ -282,6 +283,4 @@ Dashboard
 User Insights & Actions
 
 
-Active development.
 
-Please review the license and original attribution requirements before modifying, redistributing, or publishing derivative versions of the project.
